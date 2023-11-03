@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./chroma/:/chroma
+      - ../chroma/:/chroma
     environment:
       - ANONYMIZED_TELEMETRY=False
       - ALLOW_RESET=True
